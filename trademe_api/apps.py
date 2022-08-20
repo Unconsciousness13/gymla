@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class PtfConfig(AppConfig):
+class TrademeApiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'ptf'
+    name = 'trademe_api'
