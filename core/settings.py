@@ -25,8 +25,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'trademe',
-    'trademe_api',
+    'isabella',
+    'isabella_api',
 ]
 
 MIDDLEWARE = [
