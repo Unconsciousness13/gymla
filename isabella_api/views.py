@@ -1,7 +1,16 @@
-from django.shortcuts import render
+from rest_framework import generics
+from isabella.models import Competition, Note , Temporada
+from .serializers import CompetitionSerializer, NoteSerializer , TemporadaSerializer
 
-class PostList():
-    pass
+class CompetitionList(generics.ListCreateAPIView):
+    queryset = Competition.objects.all()
+    serializer_class = CompetitionSerializer
 
-class PostDetail():
-    pass
+class NoteList(generics.ListCreateAPIView):
+    queryset = Note.objects.all()
+    serializer_class = NoteSerializer
+
+class TemporadaList(generics.ListCreateAPIView):
+    queryset = Temporada.objects.all()
+    serializer_class = TemporadaSerializer
+    

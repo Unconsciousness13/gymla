@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'isabella',
     'isabella_api',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
