@@ -19,11 +19,11 @@ class Competition(models.Model):
 class Note(models.Model):
     note = models.DecimalField(max_digits=5, decimal_places=3)
     competition = models.ForeignKey('Competition', on_delete=models.CASCADE)
-    temporada = models.ForeignKey('Temporada', on_delete=models.CASCADE)
+    temporada = models.OneToOneField('Temporada', on_delete=models.CASCADE)
     
 
     def __str__(self):
-        return self.note
+        return str(self.note)
 
 
 class Temporada(models.Model):
