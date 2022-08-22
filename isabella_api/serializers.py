@@ -1,18 +1,13 @@
 from rest_framework import serializers
-from isabella.models import Competition, Note, Temporada
+from isabella.models import Competition,  Temporada
 
 
 class CompetitionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Competition
         fields = ('id', 'competition_name', 'location',
-                  'club_name', 'competition_date',)
+                  'club_name', 'competition_date', 'season_id',)
 
-
-class NoteSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Note
-        fields = ('id', 'note', 'competition', 'temporada',)
 
 
 class TemporadaSerializer(serializers.ModelSerializer):
