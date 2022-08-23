@@ -10,9 +10,12 @@ const Navbar = () => {
   return (
     <div className="w-full h-[90px] bg-black">
       <div className=" max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
-        <div>
+      <img class="logo-nav md:flex" src="/navbar-logo.png" alt="logo" />
+
+        {/* <div className="logo-navbar">
+          
           <h1 className="text-[#00d8ff]">Isabella</h1>
-        </div>
+        </div> */}
         <div className="hidden md:flex">
           <ul className="flex text-white items-center">
             <Link to="/gallery">
@@ -43,7 +46,7 @@ const Navbar = () => {
           }
         >
           <ul>
-          <Link to="/gallery">
+            <Link to="/gallery">
               <li>Gallery</li>
             </Link>
             <Link to="/videos">
