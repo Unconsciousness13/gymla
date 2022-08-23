@@ -10,6 +10,7 @@ import Slider from "./components/Slider";
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,7 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
-      <Slider />
+      <Slider  />
       <Footer />
     </div>
   );
