@@ -31,13 +31,13 @@ export default function Slider() {
         <li>
           <span>Image 05</span>
           <div>
-            <h3>qui·e·tude</h3>
+            <h3>Concentració</h3>
           </div>
         </li>
         <li>
           <span>Image 06</span>
           <div>
-            <h3>re·lax·a·tion</h3>
+            <h3>Esforç</h3>
           </div>
         </li>
       </ul>
