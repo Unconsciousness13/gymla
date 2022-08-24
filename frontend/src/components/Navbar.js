@@ -18,11 +18,11 @@ const Navbar = () => {
           <h1 className="text-[#00d8ff]">Isabella</h1>
         </div> */}
         <div className="hidden md:flex">
-          <ul className="flex text-white items-center">
+          <ul className="flex text-white items-center ">
             <Link to="/gallery">
-              <li>Gallery</li>
+              <li className="navbar-links-li">Gallery</li>
             </Link>
-            <Link to="/videos">
+            <Link className="navbar-links-li" to="/videos">
               <li>Videos</li>
             </Link>
           </ul>

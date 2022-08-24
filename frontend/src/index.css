@@ -22,3 +22,13 @@
         @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] py-3 px-7 rounded-3xl
     }
 }
+
+.navbar-links-li {
+    text-shadow: 1px 1px #da007f;
+    font-size: 20px;
+}
+
+.navbar-links-li:hover {
+    background-color: #da007f;
+    border-radius: 10px;
+}
