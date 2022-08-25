@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/navbar-logo.png"
+import logo from "../assets/images/navbar-logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -10,8 +10,10 @@ const Navbar = () => {
   };
   return (
     <div className="w-full h-[90px] bg-black">
-      <div className=" max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full" >
-      <img className="logo-nav md:flex" src={logo} alt="logo" />
+      <div className=" max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
+        <Link to="/">
+          <img className="logo-nav md:flex" src={logo} alt="logo" />
+        </Link>
 
         {/* <div className="logo-navbar">
           
@@ -20,10 +22,10 @@ const Navbar = () => {
         <div className="hidden md:flex">
           <ul className="flex text-white items-center ">
             <Link to="/gallery">
-              <li className="navbar-links-li">Gallery</li>
+              <li className="navbar-links-li">Imatges</li>
             </Link>
             <Link className="navbar-links-li" to="/videos">
-              <li>Videos</li>
+              <li>Vídeos</li>
             </Link>
           </ul>
         </div>
@@ -42,16 +44,16 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center"
+              ? "navb-ankers w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center"
               : "absolute left-[-100%]"
           }
         >
           <ul>
             <Link to="/gallery">
-              <li>Gallery</li>
+              <li className="hamb-li">Gallery</li>
             </Link>
             <Link to="/videos">
-              <li>Videos</li>
+              <li className="hamb-li">Videos</li>
             </Link>
           </ul>
         </div>

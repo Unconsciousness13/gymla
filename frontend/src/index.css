@@ -38,11 +38,35 @@ body {
     border-radius: 10px;
 }
 
+.hamb-li {
+    font-size: 18px;
+}
+
+.hamb-li:hover {
+    background-color: #da007f;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 18px;
+}
+
 .web-content-body {
-    position: absolute;
-    top: 90px;
+    position: relative;
 }
 
 .container-footer {
     color: white;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.slider-container::after {
+    background: transparent url(./assets/images/pattern.png);
+}
+
+.web-content-body {
+    position: relative;
 }

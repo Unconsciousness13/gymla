@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Slider() {
   return (
-    <div>
+    <div className="slider-container">
       <ul className="cb-slideshow">
         <li>
           <span>Image 01</span>
@@ -31,13 +31,13 @@ export default function Slider() {
         <li>
           <span>Image 05</span>
           <div>
-            <h3>Concentració</h3>
+            <h3>Esforç</h3>
           </div>
         </li>
         <li>
           <span>Image 06</span>
           <div>
-            <h3>Esforç</h3>
+            <h3>Equilibri</h3>
           </div>
         </li>
       </ul>

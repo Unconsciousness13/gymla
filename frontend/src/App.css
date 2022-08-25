@@ -52,8 +52,6 @@
     margin: 0 auto;
 }
 
-
-/* testimonial */
-
-
-/* end testimonial */
+.navb-ankers {
+    z-index: 1000;
+}
