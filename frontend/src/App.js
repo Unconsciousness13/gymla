@@ -9,36 +9,10 @@ import Footer from "./components/Footer";
 import Slider from "./components/Slider";
 
 
-
-// const slides = [
-//   {
-//     city: 'Habilitat',
-//     img: 'https://i.ibb.co/ymTPPhH/1.jpg',
-//   },
-//   {
-//     city: 'Singapore',
-//     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg',
-//   },
-//   {
-//     city: 'Prague',
-//     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg',
-//   },
-//   {
-//     city: 'Amsterdam',
-//     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg',
-//   },
-//   {
-//     city: 'Moscow',
-//     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg',
-//   },
-// ];
-
-
 function App() {
   return (
     <div className="App">
       <Navbar />
-        {/* <Slider slides={slides}/> */}
         <Slider />
         <Routes>
           <Route path="/videos" element={<Videos />} />
