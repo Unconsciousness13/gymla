@@ -1,0 +1,104 @@
+.youtube {
+    padding-bottom: 50px;
+    background-color: #111111;
+}
+
+.youtube .section-title {
+    text-align: center;
+}
+
+.youtube .section-title h1 {
+    font-size: 90px;
+}
+
+.youtube__item {
+    -webkit-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s;
+    margin-bottom: 30px;
+}
+
+.youtube__item:hover {
+    -webkit-box-shadow: 15px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 15px rgba(0, 0, 0, 0.1);
+}
+
+.youtube__item__pic {
+    background-size: cover;
+    height: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.youtube__item__pic:hover {
+    transform: scale(1.01);
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    opacity: 1;
+}
+
+.yt-bg-first {
+    background-image: url('../images/vid-bg-1.jpg');
+}
+
+.yt-bg-second {
+    background-image: url('../images/vid-bg-2.jpg');
+}
+
+.yt-bg-third {
+    background-image: url('../images/vid-bg-3.jpg');
+}
+
+.youtube__item__pic .play-btn {
+    font-size: 16px;
+    color: #5c00ce;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.youtube__item__pic .play-btn i {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.youtube__item__pic .play-btn:after {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    border-radius: 50%;
+    content: "";
+    z-index: -1;
+}
+
+.youtube__item__text {
+    padding: 25px 30px 20px 20px;
+    background: #ffffff;
+}
+
+.youtube__item__text h4 {
+    font-size: 26px;
+    color: #111111;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    text-shadow: 0.3px 0.3px #F92C85;
+}
