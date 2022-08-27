@@ -558,3 +558,9 @@ footer {
         padding: 5em 0;
     }
 }
+
+@media (max-width: 580px) {
+    #home h1 {
+        padding-right: 0;
+    }
+}
