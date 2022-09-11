@@ -244,7 +244,7 @@ footer {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    background: none repeat scroll 0 0 #ffffff;
+    background: none repeat scroll 0 0 #000000;
 }
 
 .spinner {
@@ -264,7 +264,7 @@ footer {
     margin-top: -10px;
     margin-left: -10px;
     border-radius: 50%;
-    border: 1px solid #959595;
+    border: 3px solid #ff0278;
     border-top-color: #ffffff;
     animation: spinner .9s linear infinite;
 }
@@ -1036,3 +1036,4 @@ screen and (max-height: 300px) {
         padding-right: 6px;
     }
 }
+

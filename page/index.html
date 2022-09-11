@@ -7,11 +7,26 @@
     <meta name="description" content="Isabella Plamenov Georgiev - Personal web page." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="/css/aos.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/styles.css" />
     <title>Isabella.cat</title>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MT6JN60C71"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MT6JN60C71');
+</script>
 <header>
     <div class="hidden-info">
         (EN)Isabella Plamenov personal web page. (ES) Mi pagina web personal. (CAT) La meva pàgina web personal. (БГ) Пламен Илиев, моят личен Уебсайт. isabella.cat
@@ -25,7 +40,6 @@
             <span class="sk-inner-circle"></span>
         </div>
     </div>
-
     <!-- MENU -->
     <div class="navbar custom-navbar navbar-fixed-top" role="navigation">
         <div class="container">
@@ -79,7 +93,7 @@
     </section>
 
     <section id="images" class="parallax-section">
-        <div class="container">
+        <div class="container" >
             <div class="row">
                 <div style="text-align: center; margin-top: 10px; margin-bottom: 50px">
                     <h1 style="
@@ -93,7 +107,7 @@
 
                 <div class="col-md-4 col-sm-4">
                     <!-- PROJECT ITEM -->
-                    <div class="project-item">
+                    <div class="project-item" data-aos="fade-right">
                         <a href="images/1.jpg" class="image-popup">
                             <img src="images/1.jpg" class="img-responsive" alt="" />
 
@@ -107,7 +121,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4" data-aos="flip-up">
                     <!-- PROJECT ITEM -->
                     <div class="project-item">
                         <a href="images/2.jpg" class="image-popup">
@@ -122,7 +136,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4" data-aos="flip-left">
                     <div class="project-item">
                         <a href="images/3.jpg" class="image-popup">
                             <img src="images/3.jpg" class="img-responsive" alt="" />
@@ -136,7 +150,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4" data-aos="flip-right">
                     <div class="project-item">
                         <a href="images/4.jpg" class="image-popup">
                             <img src="images/4.jpg" class="img-responsive" alt="" />
@@ -149,7 +163,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4" data-aos="flip-down">
                     <!-- PROJECT ITEM -->
                     <div class="project-item">
                         <a href="images/5.jpg" class="image-popup">
@@ -164,7 +178,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4" data-aos="fade-left">
                     <!-- PROJECT ITEM -->
                     <div class="project-item">
                         <a href="images/6.jpg" class="image-popup">
@@ -187,7 +201,7 @@
 
     <section id="videos" class="youtube spad">
         <div class="container">
-            <div class="row">
+            <div class="row" >
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h1 style="
@@ -201,8 +215,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="row" >
+                <div class="col-lg-4 col-md-6 col-sm-6" data-aos="fade-right">
                     <div class="youtube__item">
                         <div class="youtube__item__pic yt-bg-first">
                             <a href="https://www.youtube.com/watch?v=UIq3G5vYjo8?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i
@@ -213,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6" data-aos="flip-down">
                     <div class="youtube__item">
                         <div class="youtube__item__pic yt-bg-second">
                             <a href="https://www.youtube.com/watch?v=5V5_IzTfxPo?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i
@@ -224,7 +238,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6" data-aos="flip-left">
                     <div class="youtube__item">
                         <div class="youtube__item__pic yt-bg-third">
                             <a href="https://www.youtube.com/watch?v=AP2LoHK4G6g?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i
@@ -240,7 +254,7 @@
     </section>
 
     <footer class="footer">
-        <div class="container-footer">
+        <div class="container-footer" >
             <div class="copyright">
                 <p class="footer-paragraph">
                     Created By <a href="https://www.pako.es" target="_blank">Pako™</a>| © 2022 All rights reserved.
@@ -254,7 +268,9 @@
                 <li>
                     <a href="https://www.instagram.com/isabellaplamenov/" target="_blank"><i id="inst-ico" class="fa-brands fa-instagram"></i
             ></a>
-                </li>
+                </li><script>
+                    AOS.init();
+                  </script>
                 <li>
                     <a href="https://www.youtube.com/channel/UCRAwOx2jtcBL_WD1ICdOmuw" target="_blank"><i id="yt-ico" class="fa-brands fa-youtube"></i
             ></a>
@@ -274,12 +290,17 @@
     <script src="js/modernizr.custom.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
