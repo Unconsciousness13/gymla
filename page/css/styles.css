@@ -365,6 +365,7 @@ footer {
 @media(min-width:768px) {
     .custom-navbar {
         background: 0 0;
+        width: 100vw;
     }
     .custom-navbar.top-nav-collapse {
         background: #F92C85;
